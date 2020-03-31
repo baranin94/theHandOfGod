@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d3d3d3;
+    color: #333;
+    font-family: 'Gotu', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Header content */
+.header-content {
+    padding: 20px 50px;
+    margin: 20px;
+}
+
+.header-content h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+.header-content .donateParagraph {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.nav-section {
+    float: right;
+    position: relative;
+    right: 20px;
+    top: 10px;
+}
+
+.nav-section ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 15px;
+    letter-spacing: normal;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-section a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: grey;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.nav-section a:hover {
+    text-decoration: underline;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Images content */
+.images-content {
+    text-align: center;
+    margin: 20px;
+    display: block;
+    position: relative;
+}
+
+.images-section img {
+    width: 500px;
+    height: 340px;
+    background-position: cover;
+    padding-top: 15px;
+    position: relative;
+}
+
+/* Text-content */
+.text-content {
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.poor-childrens .text-2-content {
+    margin: 10px 0;
+}
+
+.text-2-content {
+    padding-top: 20px;
+}
+
+/* Final content */
+.final-content {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.final-img img {
+    padding-top: 80px;
+    width: 600px;
+}
+
+.final-img .final-msg {
+    font-family: cursive;
+    font-size: 30px;
+}
+
+/* Donate content */
+.donate-content {
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+    padding-bottom: 40px;
+}
+
+button {
+    width: 30%;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: lightgrey;
+    color: #ff0000;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: darkgrey;
+}
+
+/* About */
+.aboutUs-content {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.aboutUs-content h3 {
+    padding-bottom: 10px;
+}
+
+.aboutUs-content .aboutUs-text {
+    margin: 50px;
+}
+
+.image img {
+    padding-bottom: 40px;
+    width: 50%;
+}
+
+@media (max-width: 900px) {
+    .image img {
+        width: 80%;
+    }
+}
