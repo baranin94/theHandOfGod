@@ -161,6 +161,22 @@ button:hover {
 }
 
 @media (max-width: 900px) {
+    p {
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 13px;
+    }
+    
+    .images-section img {
+        width: 80%;
+        height: 30%;
+    }
+    
+    .final-img img {
+        width: 80%;
+        height: 30%;
+    }
+    
     .image img {
         width: 80%;
     }
